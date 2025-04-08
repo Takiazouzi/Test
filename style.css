@@ -19,8 +19,8 @@ body {
   color: #d7003a;
 }
 #news-image {
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 100px;
   object-fit: cover;
 }
 #more-news-button {
