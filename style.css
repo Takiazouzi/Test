@@ -15,8 +15,8 @@ body {
 #first-column {
   background-color: #d7003a;
 }
-#second-column {
-  background-color: white;
+#news-title {
+  color: #d7003a;
 }
 #news-image {
   width: 80px;
@@ -37,10 +37,21 @@ body {
 .cta-red {
   background-color: #d7003a;
 }
+#devis-section {
+  background-color: #333;
+}
+#solutions-section {
+  background-color: #d7003a;
+}
+
 .partner-logos img {
   max-height: 50px;
   margin: 0.5rem 1rem;
   filter: grayscale(100%);
+}
+.partner-logos img:hover {
+  filter: none;
+  cursor: pointer;
 }
 .title-section {
   display: flex;
