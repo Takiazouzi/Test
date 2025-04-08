@@ -76,3 +76,7 @@ footer a {
   margin: 0 10px;
   text-decoration: none;
 }
+.custom-margin {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
