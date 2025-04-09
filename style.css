@@ -7,24 +7,10 @@ body {
   background-image: url("images/header\ background\ image.png");
   background-size: cover;
 }
-.hero-left {
-  background-color: #d7003a;
-  color: white;
-  padding: 2rem;
-}
-#first-column {
-  background-color: #d7003a;
-}
-#news-title {
-  color: #d7003a;
-}
 #news-image {
   width: 150px;
   height: 100px;
   object-fit: cover;
-}
-#more-news-button {
-  color: #d7003a;
 }
 .cta-box {
   padding: 1.5rem;
@@ -40,10 +26,12 @@ body {
 #devis-section {
   background-color: #333;
 }
-#solutions-section {
-  background-color: #d7003a;
+#solution-icon {
+  background-color: #c74164;
 }
-
+#devis-icon {
+  background-color: #3f3d3d;
+}
 .partner-logos img {
   max-height: 50px;
   margin: 0.5rem 1rem;
@@ -65,18 +53,16 @@ body {
   background-color: #454141;
   opacity: 0.5;
 }
-
 footer {
   background-color: #222;
   color: white;
   padding: 1rem 0;
 }
 footer a {
-  color: white;
+  color: rgb(209, 204, 204);
   margin: 0 10px;
   text-decoration: none;
-}
-.custom-margin {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  &:hover {
+    color: white;
+  }
 }
