@@ -3,7 +3,7 @@
 A basic frontend homepage implemented for an evaluation test .
 
 My implementation :
-![alt text](images/realisation.png)
+![alt text](images/image.png)
 
 The Template asked :
 
